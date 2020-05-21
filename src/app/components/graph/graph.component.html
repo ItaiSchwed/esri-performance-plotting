@@ -1,0 +1,2 @@
+<div id="graph"  [@fadeAnimation]="graphStore.getFade() | async"
+     (@fadeAnimation.Done)="animationDone($event)" #graph></div>
